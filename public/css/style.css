@@ -1,0 +1,273 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container{
+    flex: 1;
+}
+
+/* navbar   */
+.navbar{
+    /* height: 6rem; */
+    background-color: white;
+}
+
+.fa-compass{
+    color: crimson;
+    font-size: 2.1rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+    font-weight: 600 !important;
+    opacity: 0.7;
+    transition: all 0.8s linear !important;
+}
+
+.logo{
+    color: royalblue !important;
+}
+
+.logo2 i{
+    font-size: 1.5rem !important;
+}
+
+.nav-link:hover{
+   text-decoration: crimson underline;
+   color: royalblue !important;
+   opacity: 1;
+    
+}
+
+/* footer  */
+.f-info-links a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #222222;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.f-info-links a:hover{
+    text-decoration: red underline;
+    opacity: 1;
+}
+
+.f-info-links,.info-socials,.f-info-brand{
+    text-align: center;
+    width: 100%;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.info-socials i{
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: royalblue;
+}
+
+.info-socials i:hover{
+    border-bottom: 1px solid red;
+    scale: 1.12;
+    
+}
+
+.f-info{
+    display: flex;
+    height: 8rem;
+    background-color: #ebebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+/* cards   */
+
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+
+.card-img-top{
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    box-shadow: 2px 2px 18px black !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 500 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* card effect     */
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.4;
+    background-color: white;
+}
+
+.add-btn{
+   background-color: royalblue !important;
+   border: none !important;
+}
+
+.main-list{
+    font-size: 1.5rem;
+    color: royalblue;
+    font-weight: bolder;
+}
+.main-list2{
+    font-size: 1.2rem;
+    color: royalblue;
+    opacity: 0.5;
+}
+
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mybtn{
+    border-radius: 20px !important;
+    box-shadow: 2px 2px 8px black;
+    transition: all 0.2s linear !important;
+}
+
+.mybtn:hover{
+    color: black !important;
+}
+
+.head{
+    color: royalblue !important;
+}
+
+.editbtn{
+    box-shadow: 1px 1px 5px black;
+}
+
+.shwbtn{
+    box-shadow: 1px 1px 5px black;
+}
+
+/* map   */
+#map {
+     height: 400px;
+     width:85vh;
+     box-shadow: 1px 1px 8px black;
+     border-radius: 2rem;
+     }
+
+@media  only screen and (max-width:600px) {
+    .gap{
+        margin-bottom: 5px !important;
+    }
+    .stars{
+        width: 11rem !important;
+        height: 12rem !important;
+    }
+    .listImg{
+        width: 30rem !important;
+        margin: auto !important;
+    }
+    .editt{
+        width: 4rem !important;
+    }
+
+    .editbtn{
+        margin-bottom: 2rem !important;
+        box-shadow: 1px 1px 5px black;
+    }
+
+    #map {
+        width: 40vh;
+        height:180px;
+        position: relative;
+        right: 4.4rem;
+        box-shadow: 1px 1px 8px black;
+        border-radius: 1.2rem;
+        }
+    
+     .filter{
+            margin-right: 1.2rem !important;
+            margin-top: 1.5rem !important;
+          }
+
+    .filter p{
+            font-size: 0.7rem !important;
+          }
+    #filters{
+           margin-left: 1.8rem;
+          }
+    .filter i{
+        font-size: 1.5rem !important;
+    }
+
+    .search-input{
+        padding: 0.3rem 1rem 0.3rem 1rem;
+        font-size: 1rem;
+       }
+
+  .main-list{
+    position: relative;
+    right: 5rem;
+    font-weight: bolder;
+  }
+}
+
+@media  only screen and (min-width:608px) and (max-width:880px){
+    #map {
+        width: 55vh;
+        height:180px;
+        position: relative;
+        right: 5.2rem;
+        }
+
+        .listImg{
+            width: 29rem !important;
+            margin: auto !important;
+        }
+
+        .gap{
+            margin-bottom: 5px !important;
+        }
+
+        .editt{
+            width: 4rem !important;
+        }
+
+        .main-list{
+            position: relative;
+            right: 5rem;
+            font-weight: bolder;
+          }
+}
+
+
+
