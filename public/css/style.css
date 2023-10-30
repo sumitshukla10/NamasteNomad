@@ -184,6 +184,19 @@ body{
      border-radius: 2rem;
      }
 
+.sgnup a{
+    text-decoration: none;
+    font-weight: 400;
+    color: white !important;
+}
+
+.sgnup{
+    margin-top: 1.5rem;
+    background-color: #3e71be !important;
+}
+
+
+
 @media  only screen and (max-width:600px) {
     .gap{
         margin-bottom: 5px !important;
